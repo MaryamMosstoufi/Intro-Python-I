@@ -31,7 +31,7 @@ import sys
 import calendar
 from datetime import datetime
 if len(sys.argv) <= 1:
-    print("Please run this program with format of 14_cal.py[month][year]")
+    print("Please run this program with format of 14_cal.py [year] [month]")
 else:
     if len(sys.argv) > 1:
         y = int(sys.argv[1])
