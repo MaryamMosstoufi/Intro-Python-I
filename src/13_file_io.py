@@ -24,3 +24,7 @@ with open("bar.txt", 'w') as b:
     b.write("line two \n")
     b.write("line three \n")
     b.close()
+
+# c = open("foo.txt", "w")
+# c.write("something")
+# c.close()
